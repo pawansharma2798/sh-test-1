@@ -1,5 +1,6 @@
-$a=1;
-if[a == 0]
-mkdir hello
-else
-mkdir hi
+MY_SHELL="zsh"
+
+if [ "$MY_SHELL" = "zsh" ]
+    then
+        echo "You are the zsh shell user!"
+fi
