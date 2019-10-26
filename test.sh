@@ -2,8 +2,8 @@ MY_SHELL="zsh"
 
 if [ "$MY_SHELL" = "zs" ]
 then
-output = $(mkdir "Hello")
+output = $(ping www.google.com)
 else
-output = $(mkdir "Hi")
+output = $(ping www.facebook.com)
 fi
 echo "Output of command is $output"
