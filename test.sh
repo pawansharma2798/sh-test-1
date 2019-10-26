@@ -6,4 +6,4 @@ output = $(mkdir "Hello")
 else
 output = $(mkdir "Hi")
 fi
-echo "Output of command is $current_date"
+echo "Output of command is $output"
