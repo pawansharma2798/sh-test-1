@@ -2,7 +2,9 @@ MY_SHELL="zsh"
 
 if [ "$MY_SHELL" = "zs" ]
     then
-        echo "You are the zsh shell user!"
+     out =  mkdir "Hello"
 else
-        echo "Condition failed"
+       out = mkdir "hi"
 fi
+
+echo $out >> output.txt
